@@ -2,7 +2,7 @@ const input = require("readline-sync");
 const year = input.question("\nEnter a year: ");
 let isLeapYear = null;
 if (year >= 0 && year <= Number.MAX_SAFE_INTEGER && year%1===0){
-  if(year%4===0){
+  if(year%4===0 && year%100!==0 || year%400===0){
     isLeapYear = "";
   }else{
     isLeapYear = " not";

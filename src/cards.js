@@ -40,8 +40,10 @@ function checkRank(string){
     resultCard = "King ";
   }else if (string === 'a'){
     resultCard = "Ace ";
+  }else if (string === 't'){
+    resultCard = "Ace ";
   }else {
-    resultCard = "Invalid."
+    resultCard = "Invalid.";
   }
 }
 checkRank(cardEntered.charAt(0));

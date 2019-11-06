@@ -19,5 +19,5 @@ if (Number.isNaN(amount)) {
     amount = ((amount*100)%(quarter*100))/100;
     const penny_number = Math.floor(amount/penny);
     console.log();
-    console.log(quarter_number+" quarters, "+dime_number+" dimes, "+nickel_number+" nickels, "+penny_number+" pennies.")
+    console.log(quarter_number+" quarters, "+dime_number+" dimes, "+nickel_number+" nickels, and "+penny_number+" pennies.")
 }
